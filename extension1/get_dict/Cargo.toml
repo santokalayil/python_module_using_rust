@@ -1,0 +1,13 @@
+[package]
+name = "get_dict"
+version = "0.1.0"
+authors = ["Santo Kalayil <santokalayil@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "rust_pyext"
+crate-type = ["dylib"]
+
+
+[dependencies]
+cpython = { git = "https://github.com/dgrunwald/rust-cpython" }
