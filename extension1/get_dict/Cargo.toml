@@ -8,6 +8,5 @@ edition = "2018"
 name = "rust_pyext"
 crate-type = ["dylib"]
 
-
 [dependencies]
 cpython = { git = "https://github.com/dgrunwald/rust-cpython" }
